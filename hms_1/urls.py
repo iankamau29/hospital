@@ -17,12 +17,17 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
+from registration import views
 from registration.views import login
 
 urlpatterns = [
-
+    path('admin/', admin.site.urls),
     path('login/', include('registration.urls')),
-    path('new/', include('registration.urls')),
-    path('base/', include('registration.urls')),
+    path('home/', include('registration.urls')),
+    path('register/', include('registration.urls')),
+    path('hoody/',include('registration.urls')),
+    path('admin dashboard/', include('registration.urls')),
+    path('user dashboard', include('registration.urls')),
+    path('home.html', views.home, name='home'),
 
 ]
