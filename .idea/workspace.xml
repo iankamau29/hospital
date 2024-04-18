@@ -5,27 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91676148-9836-4505-965d-8096866e73de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/registration/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/templates/admin_dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/templates/hoody.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/templates/user_dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6f811db9-885d-49c5-a208-441407772db0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6f811db9-885d-49c5-a208-441407772db0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/migrations/0002_register_rename_email_student_email_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/migrations/0003_rename_email_register_useremail_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/templates/edit_store.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hms_1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hms_1/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registration/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registration/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/templates/Hoods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/templates/block.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/templates/bootsrap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration/templates/admin_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration/templates/admin_dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registration/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/templates/new file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registration/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registration/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transactions/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/transactions/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +64,15 @@
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -133,7 +128,9 @@
       <workItem from="1712308597510" duration="4532000" />
       <workItem from="1712330407433" duration="1355000" />
       <workItem from="1712331888670" duration="30106000" />
-      <workItem from="1712823952514" duration="7133000" />
+      <workItem from="1712823952514" duration="7408000" />
+      <workItem from="1713169967147" duration="10945000" />
+      <workItem from="1713257615877" duration="17761000" />
     </task>
     <servers />
   </component>

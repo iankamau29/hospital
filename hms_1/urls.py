@@ -25,9 +25,9 @@ urlpatterns = [
     path('login/', include('registration.urls')),
     path('home/', include('registration.urls')),
     path('register/', include('registration.urls')),
-    path('hoody/',include('registration.urls')),
+    path('hoody/', include('registration.urls')),
     path('admin dashboard/', include('registration.urls')),
-    path('user dashboard', include('registration.urls')),
-    path('home.html', views.home, name='home'),
-
+    path('', include('registration.urls')),
+    path('editstore/<id>', include('registration.urls')),
+    path('deletestore/<id>', include('registration.urls')),
 ]
