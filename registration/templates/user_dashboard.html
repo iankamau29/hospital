@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,22 +49,27 @@
     </header>
     <main>
         <div class="container">
+            <form method="post" action="/updatestore/{{ data.id }}">
+                {% csrf_token %}
             <div class="profile-details bg-light p-4">
                 <img src="profile-photo.jpg" alt="Profile Photo" class="profile-photo" id="profilePhoto">
                 <input type="file" accept="image/*" id="profilePhotoInput" style="display: none;">
                 <h2 class="mb-4">User Profile</h2>
-                <p><strong>Name:</strong> John Doe</p>
-                <p><strong>Email:</strong> john@example.com</p>
-                <p><strong>Role:</strong> User</p>
-                <p><strong>Joined:</strong> April 11, 2024</p>
-                <div class="store-details">
-                    <h3>Store Details</h3>
-                    <p><strong>Store Name:</strong> Example Store</p>
-                    <p><strong>Contact Number:</strong> +1234567890</p>
-                    <p><strong>Store Address:</strong> 123 Main Street, Cityville</p>
+                <label for="name" class="form-lable">Name</label>
+                <input type="text" class="form-control" name="name" value="{{ data.Name }}">
+                <label for="email" class="form-lable">email</label>
+                <input type="email" class="form-control" name="email" value="{{ data.Email }}">
+                <label for="contact" class="form-lable">contact</label>
+                <input type="number" class="form-control" name="contactnumber" value="{{ data.contact_number }}">
+                <label for="address" class="form-lable">address</label>
+                <input type="text" class="form-control" name="storeaddress" value="{{ data.store_address }}">
+                <label for="storename" class="form-lable">storename</label>
+                <input type="text" class="form-control" name="storename" value="{{ data.Store_name }}">
+                <button type="submit" class="btn btn-primary m-1">update</button>
                 </div>
-                <a href="{% url 'home' %}">back home</a>
-            </div>
+            </form>
+
+
         </div>
     </main>
     <footer class="bg-dark text-light py-4">

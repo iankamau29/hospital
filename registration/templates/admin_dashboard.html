@@ -19,7 +19,7 @@
         }
     </style>
 </head>
-<body>
+<body style="background-color: chartreuse ">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -73,8 +73,8 @@
                             <td>{{ store.contact_number }}</td>
                             <td>{{ store.store_address }}</td>
                             <td>
-                                <a href="/editstore/" class="btn btn-primary">Edit</a>
-                                <a href="/deletestore/" class="btn btn-danger">Delete</a>
+                                <a href="/editstore/{{ store.id }}" class="btn btn-primary">Edit</a>
+                                <a href="/deletestore/{{ store.id }}" class="btn btn-danger">Delete</a>
                             </td>
                         </tr>
                         {% endfor %}

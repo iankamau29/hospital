@@ -33,21 +33,27 @@
         <div class="text-center mb-4">
           <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png" alt="Logo">
         </div>
-        <form>
-
+        <form method="post" action="/authenticate/">
+          {% csrf_token %}
           <h2 class="text-center mb-4">LOGIN</h2>
+          <!-- Display error messages -->
+          {% if form.non_field_errors %}
+          <div class="alert alert-danger" role="alert">
+            {{ form.non_field_errors }}
+          </div>
+          {% endif %}
           <div class="form-group">
-              <input type="email" class="form-control" placeholder="enter email" required>
+              <input type="text" class="form-control" name="username" placeholder="User Name" required>
           </div>
           <div class="form-group">
-                  <input type="password" class="form-control" placeholder="Password" required></label>
+                  <input type="password" class="form-control" name="password" placeholder="password" required></label>
           </div>
           <div class="form-group">
-              <a href="{% url 'home' %}" class="btn btn-primary btn-block">Login</a>
-              </div>
-            <div>
-               <p>Don't have an account ?</p> <a href="{% url 'register' %}">create account</a>
-            </div>
+              <button type="submit"> Login</button>
+          </div>
+          <div>
+             <p>Don't have an account ?</p> <a href="{% url 'register' %}">Create account</a>
+          </div>
         </form>
       </div>
     </div>

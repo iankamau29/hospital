@@ -5,20 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91676148-9836-4505-965d-8096866e73de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/registration/migrations/0002_register_rename_email_student_email_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/migrations/0003_rename_email_register_useremail_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/templates/edit_store.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/migrations/0004_shoes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/migrations/0006_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/templates/post shoe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/templates/registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hms_1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hms_1/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hms_1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hms_1/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registration/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registration/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registration/templates/admin_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration/templates/admin_dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration/templates/user_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration/templates/user_dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registration/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registration/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transactions/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/transactions/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -130,7 +134,14 @@
       <workItem from="1712331888670" duration="30106000" />
       <workItem from="1712823952514" duration="7408000" />
       <workItem from="1713169967147" duration="10945000" />
-      <workItem from="1713257615877" duration="17761000" />
+      <workItem from="1713257615877" duration="18446000" />
+      <workItem from="1713730516567" duration="42835000" />
+      <workItem from="1714336505656" duration="35000" />
+      <workItem from="1714336956131" duration="15000" />
+      <workItem from="1714337001095" duration="258000" />
+      <workItem from="1714337556927" duration="35000" />
+      <workItem from="1714339143070" duration="7269000" />
+      <workItem from="1714381552653" duration="9089000" />
     </task>
     <servers />
   </component>

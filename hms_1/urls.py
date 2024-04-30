@@ -24,10 +24,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('login/', include('registration.urls')),
     path('home/', include('registration.urls')),
-    path('register/', include('registration.urls')),
+    path('register_user/', include('registration.urls')),
     path('hoody/', include('registration.urls')),
     path('admin dashboard/', include('registration.urls')),
     path('', include('registration.urls')),
     path('editstore/<id>', include('registration.urls')),
     path('deletestore/<id>', include('registration.urls')),
+    path('updatestore/<id>', include('registration.urls')),
 ]
